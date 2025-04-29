@@ -1,0 +1,452 @@
+Request method:	GET
+Request URI:	https://avinashkamble-team.atlassian.net/rest/api/3/issue/RA-1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	issue=RA-1
+Headers:		Accept=application/json
+				Authorization=Basic cGthdmluYXNAZ21haWwuY29tOkFUQVRUM3hGZkdGMFlKTDc2eFhONmY5blY3dzVMWnhuaEN0a2FwZEhheVlWR3VfZmNyM3dYVnVPb25rT2RTN2g2ZHFMRE9uWV8tM0dSMFZZN09zTU0xOUN5LUo3b1lTVVBhcmlWa2FpT1EtZTBmUzdfZEsxVzl1dy16Q21vWXpXcFZ3blhIN05aTnlWdzM0OTg0cE5jZmJvS0U3V0NObThtY0tnWkpuMC1DV1c2QU40UEJ2NlBKMD1BOTlCODVFQQ==
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Date: Mon, 28 Apr 2025 15:00:04 GMT
+Server: AtlassianEdge
+Timing-Allow-Origin: *
+X-Arequestid: 593703bfb904f7d4c9cb7654d0f91de6
+Set-Cookie: atlassian.xsrf.token=94c1d0b7f0263415b4f0b36b0243d29b0bec35dc_lin; Path=/; SameSite=None; Secure
+X-Aaccountid: 70121%3A850d20b8-98ea-4471-9ae9-a709f5fbe6bd
+Cache-Control: no-cache, no-store, no-transform
+Vary: Accept-Encoding
+Content-Encoding: gzip
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Atl-Traceid: 0536c7ca90db4b909cb37f12e44ffa13
+Atl-Request-Id: 0536c7ca-90db-4b90-9cb3-7f12e44ffa13
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+X-Cache: Miss from cloudfront
+Via: 1.1 fa3d1cd45daf99312d8a48f43d1a0912.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BLR50-P1
+X-Amz-Cf-Id: r6gztyQPrfdF1GRhsexaG9T3YaaU88jMYhBYFSeyutohtb8h6AQX8Q==
+Server-Timing: cdn-upstream-layer;desc="EDGE",cdn-upstream-dns;dur=0,cdn-upstream-connect;dur=17,cdn-upstream-fbl;dur=676,atl-edge;dur=606,atl-edge-internal;dur=220,atl-edge-upstream;dur=386,atl-edge-pop;desc="aws-ap-south-1",cdn-cache-miss,cdn-pop;desc="BLR50-P1",cdn-rid;desc="r6gztyQPrfdF1GRhsexaG9T3YaaU88jMYhBYFSeyutohtb8h6AQX8Q==",cdn-downstream-fbl;dur=680
+
+{
+    "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+    "id": "10004",
+    "self": "https://avinashkamble-team.atlassian.net/rest/api/3/issue/10004",
+    "key": "RA-1",
+    "fields": {
+        "statuscategorychangedate": "2025-04-20T22:26:51.852+0530",
+        "issuetype": {
+            "self": "https://avinashkamble-team.atlassian.net/rest/api/3/issuetype/10008",
+            "id": "10008",
+            "description": "Bugs track problems or errors.",
+            "iconUrl": "https://avinashkamble-team.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
+            "name": "Bug",
+            "subtask": false,
+            "avatarId": 10303,
+            "entityId": "7f5d8d56-b548-4168-9e72-694bab102670",
+            "hierarchyLevel": 0
+        },
+        "timespent": null,
+        "project": {
+            "self": "https://avinashkamble-team.atlassian.net/rest/api/3/project/10033",
+            "id": "10033",
+            "key": "RA",
+            "name": "practicerestassured",
+            "projectTypeKey": "software",
+            "simplified": true,
+            "avatarUrls": {
+                "48x48": "https://avinashkamble-team.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10405",
+                "24x24": "https://avinashkamble-team.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10405?size=small",
+                "16x16": "https://avinashkamble-team.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10405?size=xsmall",
+                "32x32": "https://avinashkamble-team.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10405?size=medium"
+            }
+        },
+        "customfield_10032": null,
+        "fixVersions": [
+            
+        ],
+        "aggregatetimespent": null,
+        "statusCategory": {
+            "self": "https://avinashkamble-team.atlassian.net/rest/api/3/statuscategory/2",
+            "id": 2,
+            "key": "new",
+            "colorName": "blue-gray",
+            "name": "To Do"
+        },
+        "resolution": null,
+        "resolutiondate": null,
+        "workratio": -1,
+        "issuerestriction": {
+            "issuerestrictions": {
+                
+            },
+            "shouldDisplay": true
+        },
+        "watches": {
+            "self": "https://avinashkamble-team.atlassian.net/rest/api/3/issue/RA-1/watchers",
+            "watchCount": 1,
+            "isWatching": true
+        },
+        "lastViewed": "2025-04-28T19:45:42.347+0530",
+        "created": "2025-04-20T22:26:51.080+0530",
+        "customfield_10020": null,
+        "customfield_10021": null,
+        "priority": {
+            "self": "https://avinashkamble-team.atlassian.net/rest/api/3/priority/3",
+            "iconUrl": "https://avinashkamble-team.atlassian.net/images/icons/priorities/medium.svg",
+            "name": "Medium",
+            "id": "3"
+        },
+        "labels": [
+            
+        ],
+        "customfield_10016": null,
+        "customfield_10019": "0|hzzzzz:",
+        "timeestimate": null,
+        "aggregatetimeoriginalestimate": null,
+        "versions": [
+            
+        ],
+        "issuelinks": [
+            
+        ],
+        "assignee": {
+            "self": "https://avinashkamble-team.atlassian.net/rest/api/3/user?accountId=70121%3A850d20b8-98ea-4471-9ae9-a709f5fbe6bd",
+            "accountId": "70121:850d20b8-98ea-4471-9ae9-a709f5fbe6bd",
+            "emailAddress": "pkavinas@gmail.com",
+            "avatarUrls": {
+                "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:850d20b8-98ea-4471-9ae9-a709f5fbe6bd/e55bac44-d994-4b5f-b398-aabe08fea6c0/48",
+                "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:850d20b8-98ea-4471-9ae9-a709f5fbe6bd/e55bac44-d994-4b5f-b398-aabe08fea6c0/24",
+                "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:850d20b8-98ea-4471-9ae9-a709f5fbe6bd/e55bac44-d994-4b5f-b398-aabe08fea6c0/16",
+                "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:850d20b8-98ea-4471-9ae9-a709f5fbe6bd/e55bac44-d994-4b5f-b398-aabe08fea6c0/32"
+            },
+            "displayName": "Avinash Kamble",
+            "active": true,
+            "timeZone": "Asia/Calcutta",
+            "accountType": "atlassian"
+        },
+        "updated": "2025-04-28T19:34:36.513+0530",
+        "status": {
+            "self": "https://avinashkamble-team.atlassian.net/rest/api/3/status/10003",
+            "description": "",
+            "iconUrl": "https://avinashkamble-team.atlassian.net/",
+            "name": "To Do",
+            "id": "10003",
+            "statusCategory": {
+                "self": "https://avinashkamble-team.atlassian.net/rest/api/3/statuscategory/2",
+                "id": 2,
+                "key": "new",
+                "colorName": "blue-gray",
+                "name": "To Do"
+            }
+        },
+        "components": [
+            
+        ],
+        "timeoriginalestimate": null,
+        "description": {
+            "type": "doc",
+            "version": 1,
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "type": "text",
+                            "text": "This bug is created via web"
+                        }
+                    ]
+                }
+            ]
+        },
+        "timetracking": {
+            
+        },
+        "customfield_10015": null,
+        "security": null,
+        "attachment": [
+            {
+                "self": "https://avinashkamble-team.atlassian.net/rest/api/3/attachment/10034",
+                "id": "10034",
+                "filename": "s4_image.png",
+                "author": {
+                    "self": "https://avinashkamble-team.atlassian.net/rest/api/3/user?accountId=70121%3A850d20b8-98ea-4471-9ae9-a709f5fbe6bd",
+                    "accountId": "70121:850d20b8-98ea-4471-9ae9-a709f5fbe6bd",
+                    "emailAddress": "pkavinas@gmail.com",
+                    "avatarUrls": {
+                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:850d20b8-98ea-4471-9ae9-a709f5fbe6bd/e55bac44-d994-4b5f-b398-aabe08fea6c0/48",
+                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:850d20b8-98ea-4471-9ae9-a709f5fbe6bd/e55bac44-d994-4b5f-b398-aabe08fea6c0/24",
+                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:850d20b8-98ea-4471-9ae9-a709f5fbe6bd/e55bac44-d994-4b5f-b398-aabe08fea6c0/16",
+                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:850d20b8-98ea-4471-9ae9-a709f5fbe6bd/e55bac44-d994-4b5f-b398-aabe08fea6c0/32"
+                    },
+                    "displayName": "Avinash Kamble",
+                    "active": true,
+                    "timeZone": "Asia/Calcutta",
+                    "accountType": "atlassian"
+                },
+                "created": "2025-04-28T18:21:28.835+0530",
+                "size": 82391,
+                "mimeType": "image/png",
+                "content": "https://avinashkamble-team.atlassian.net/rest/api/3/attachment/content/10034",
+                "thumbnail": "https://avinashkamble-team.atlassian.net/rest/api/3/attachment/thumbnail/10034"
+            },
+            {
+                "self": "https://avinashkamble-team.atlassian.net/rest/api/3/attachment/10033",
+                "id": "10033",
+                "filename": "s4_image.png",
+                "author": {
+                    "self": "https://avinashkamble-team.atlassian.net/rest/api/3/user?accountId=70121%3A850d20b8-98ea-4471-9ae9-a709f5fbe6bd",
+                    "accountId": "70121:850d20b8-98ea-4471-9ae9-a709f5fbe6bd",
+                    "emailAddress": "pkavinas@gmail.com",
+                    "avatarUrls": {
+                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:850d20b8-98ea-4471-9ae9-a709f5fbe6bd/e55bac44-d994-4b5f-b398-aabe08fea6c0/48",
+                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:850d20b8-98ea-4471-9ae9-a709f5fbe6bd/e55bac44-d994-4b5f-b398-aabe08fea6c0/24",
+                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:850d20b8-98ea-4471-9ae9-a709f5fbe6bd/e55bac44-d994-4b5f-b398-aabe08fea6c0/16",
+                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:850d20b8-98ea-4471-9ae9-a709f5fbe6bd/e55bac44-d994-4b5f-b398-aabe08fea6c0/32"
+                    },
+                    "displayName": "Avinash Kamble",
+                    "active": true,
+                    "timeZone": "Asia/Calcutta",
+                    "accountType": "atlassian"
+                },
+                "created": "2025-04-28T18:20:24.832+0530",
+                "size": 82391,
+                "mimeType": "image/png",
+                "content": "https://avinashkamble-team.atlassian.net/rest/api/3/attachment/content/10033",
+                "thumbnail": "https://avinashkamble-team.atlassian.net/rest/api/3/attachment/thumbnail/10033"
+            }
+        ],
+        "aggregatetimeestimate": null,
+        "summary": "This bug is created via web",
+        "creator": {
+            "self": "https://avinashkamble-team.atlassian.net/rest/api/3/user?accountId=70121%3A850d20b8-98ea-4471-9ae9-a709f5fbe6bd",
+            "accountId": "70121:850d20b8-98ea-4471-9ae9-a709f5fbe6bd",
+            "emailAddress": "pkavinas@gmail.com",
+            "avatarUrls": {
+                "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:850d20b8-98ea-4471-9ae9-a709f5fbe6bd/e55bac44-d994-4b5f-b398-aabe08fea6c0/48",
+                "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:850d20b8-98ea-4471-9ae9-a709f5fbe6bd/e55bac44-d994-4b5f-b398-aabe08fea6c0/24",
+                "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:850d20b8-98ea-4471-9ae9-a709f5fbe6bd/e55bac44-d994-4b5f-b398-aabe08fea6c0/16",
+                "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:850d20b8-98ea-4471-9ae9-a709f5fbe6bd/e55bac44-d994-4b5f-b398-aabe08fea6c0/32"
+            },
+            "displayName": "Avinash Kamble",
+            "active": true,
+            "timeZone": "Asia/Calcutta",
+            "accountType": "atlassian"
+        },
+        "subtasks": [
+            
+        ],
+        "reporter": {
+            "self": "https://avinashkamble-team.atlassian.net/rest/api/3/user?accountId=70121%3A850d20b8-98ea-4471-9ae9-a709f5fbe6bd",
+            "accountId": "70121:850d20b8-98ea-4471-9ae9-a709f5fbe6bd",
+            "emailAddress": "pkavinas@gmail.com",
+            "avatarUrls": {
+                "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:850d20b8-98ea-4471-9ae9-a709f5fbe6bd/e55bac44-d994-4b5f-b398-aabe08fea6c0/48",
+                "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:850d20b8-98ea-4471-9ae9-a709f5fbe6bd/e55bac44-d994-4b5f-b398-aabe08fea6c0/24",
+                "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:850d20b8-98ea-4471-9ae9-a709f5fbe6bd/e55bac44-d994-4b5f-b398-aabe08fea6c0/16",
+                "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:850d20b8-98ea-4471-9ae9-a709f5fbe6bd/e55bac44-d994-4b5f-b398-aabe08fea6c0/32"
+            },
+            "displayName": "Avinash Kamble",
+            "active": true,
+            "timeZone": "Asia/Calcutta",
+            "accountType": "atlassian"
+        },
+        "aggregateprogress": {
+            "progress": 0,
+            "total": 0
+        },
+        "customfield_10001": null,
+        "environment": null,
+        "duedate": null,
+        "progress": {
+            "progress": 0,
+            "total": 0
+        },
+        "votes": {
+            "self": "https://avinashkamble-team.atlassian.net/rest/api/3/issue/RA-1/votes",
+            "votes": 0,
+            "hasVoted": false
+        },
+        "comment": {
+            "comments": [
+                {
+                    "self": "https://avinashkamble-team.atlassian.net/rest/api/3/issue/10004/comment/10000",
+                    "id": "10000",
+                    "author": {
+                        "self": "https://avinashkamble-team.atlassian.net/rest/api/3/user?accountId=70121%3A850d20b8-98ea-4471-9ae9-a709f5fbe6bd",
+                        "accountId": "70121:850d20b8-98ea-4471-9ae9-a709f5fbe6bd",
+                        "emailAddress": "pkavinas@gmail.com",
+                        "avatarUrls": {
+                            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:850d20b8-98ea-4471-9ae9-a709f5fbe6bd/e55bac44-d994-4b5f-b398-aabe08fea6c0/48",
+                            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:850d20b8-98ea-4471-9ae9-a709f5fbe6bd/e55bac44-d994-4b5f-b398-aabe08fea6c0/24",
+                            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:850d20b8-98ea-4471-9ae9-a709f5fbe6bd/e55bac44-d994-4b5f-b398-aabe08fea6c0/16",
+                            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:850d20b8-98ea-4471-9ae9-a709f5fbe6bd/e55bac44-d994-4b5f-b398-aabe08fea6c0/32"
+                        },
+                        "displayName": "Avinash Kamble",
+                        "active": true,
+                        "timeZone": "Asia/Calcutta",
+                        "accountType": "atlassian"
+                    },
+                    "body": {
+                        "type": "doc",
+                        "version": 1,
+                        "content": [
+                            {
+                                "type": "paragraph",
+                                "content": [
+                                    {
+                                        "type": "text",
+                                        "text": "This is a new comment added via the REST API using ADF."
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "updateAuthor": {
+                        "self": "https://avinashkamble-team.atlassian.net/rest/api/3/user?accountId=70121%3A850d20b8-98ea-4471-9ae9-a709f5fbe6bd",
+                        "accountId": "70121:850d20b8-98ea-4471-9ae9-a709f5fbe6bd",
+                        "emailAddress": "pkavinas@gmail.com",
+                        "avatarUrls": {
+                            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:850d20b8-98ea-4471-9ae9-a709f5fbe6bd/e55bac44-d994-4b5f-b398-aabe08fea6c0/48",
+                            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:850d20b8-98ea-4471-9ae9-a709f5fbe6bd/e55bac44-d994-4b5f-b398-aabe08fea6c0/24",
+                            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:850d20b8-98ea-4471-9ae9-a709f5fbe6bd/e55bac44-d994-4b5f-b398-aabe08fea6c0/16",
+                            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:850d20b8-98ea-4471-9ae9-a709f5fbe6bd/e55bac44-d994-4b5f-b398-aabe08fea6c0/32"
+                        },
+                        "displayName": "Avinash Kamble",
+                        "active": true,
+                        "timeZone": "Asia/Calcutta",
+                        "accountType": "atlassian"
+                    },
+                    "created": "2025-04-28T19:00:19.088+0530",
+                    "updated": "2025-04-28T19:00:19.088+0530",
+                    "jsdPublic": true
+                },
+                {
+                    "self": "https://avinashkamble-team.atlassian.net/rest/api/3/issue/10004/comment/10001",
+                    "id": "10001",
+                    "author": {
+                        "self": "https://avinashkamble-team.atlassian.net/rest/api/3/user?accountId=70121%3A850d20b8-98ea-4471-9ae9-a709f5fbe6bd",
+                        "accountId": "70121:850d20b8-98ea-4471-9ae9-a709f5fbe6bd",
+                        "emailAddress": "pkavinas@gmail.com",
+                        "avatarUrls": {
+                            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:850d20b8-98ea-4471-9ae9-a709f5fbe6bd/e55bac44-d994-4b5f-b398-aabe08fea6c0/48",
+                            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:850d20b8-98ea-4471-9ae9-a709f5fbe6bd/e55bac44-d994-4b5f-b398-aabe08fea6c0/24",
+                            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:850d20b8-98ea-4471-9ae9-a709f5fbe6bd/e55bac44-d994-4b5f-b398-aabe08fea6c0/16",
+                            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:850d20b8-98ea-4471-9ae9-a709f5fbe6bd/e55bac44-d994-4b5f-b398-aabe08fea6c0/32"
+                        },
+                        "displayName": "Avinash Kamble",
+                        "active": true,
+                        "timeZone": "Asia/Calcutta",
+                        "accountType": "atlassian"
+                    },
+                    "body": {
+                        "type": "doc",
+                        "version": 1,
+                        "content": [
+                            {
+                                "type": "paragraph",
+                                "content": [
+                                    {
+                                        "type": "text",
+                                        "text": "This is a new comment added via the REST API using ADF."
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "updateAuthor": {
+                        "self": "https://avinashkamble-team.atlassian.net/rest/api/3/user?accountId=70121%3A850d20b8-98ea-4471-9ae9-a709f5fbe6bd",
+                        "accountId": "70121:850d20b8-98ea-4471-9ae9-a709f5fbe6bd",
+                        "emailAddress": "pkavinas@gmail.com",
+                        "avatarUrls": {
+                            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:850d20b8-98ea-4471-9ae9-a709f5fbe6bd/e55bac44-d994-4b5f-b398-aabe08fea6c0/48",
+                            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:850d20b8-98ea-4471-9ae9-a709f5fbe6bd/e55bac44-d994-4b5f-b398-aabe08fea6c0/24",
+                            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:850d20b8-98ea-4471-9ae9-a709f5fbe6bd/e55bac44-d994-4b5f-b398-aabe08fea6c0/16",
+                            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:850d20b8-98ea-4471-9ae9-a709f5fbe6bd/e55bac44-d994-4b5f-b398-aabe08fea6c0/32"
+                        },
+                        "displayName": "Avinash Kamble",
+                        "active": true,
+                        "timeZone": "Asia/Calcutta",
+                        "accountType": "atlassian"
+                    },
+                    "created": "2025-04-28T19:33:42.573+0530",
+                    "updated": "2025-04-28T19:33:42.573+0530",
+                    "jsdPublic": true
+                },
+                {
+                    "self": "https://avinashkamble-team.atlassian.net/rest/api/3/issue/10004/comment/10002",
+                    "id": "10002",
+                    "author": {
+                        "self": "https://avinashkamble-team.atlassian.net/rest/api/3/user?accountId=70121%3A850d20b8-98ea-4471-9ae9-a709f5fbe6bd",
+                        "accountId": "70121:850d20b8-98ea-4471-9ae9-a709f5fbe6bd",
+                        "emailAddress": "pkavinas@gmail.com",
+                        "avatarUrls": {
+                            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:850d20b8-98ea-4471-9ae9-a709f5fbe6bd/e55bac44-d994-4b5f-b398-aabe08fea6c0/48",
+                            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:850d20b8-98ea-4471-9ae9-a709f5fbe6bd/e55bac44-d994-4b5f-b398-aabe08fea6c0/24",
+                            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:850d20b8-98ea-4471-9ae9-a709f5fbe6bd/e55bac44-d994-4b5f-b398-aabe08fea6c0/16",
+                            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:850d20b8-98ea-4471-9ae9-a709f5fbe6bd/e55bac44-d994-4b5f-b398-aabe08fea6c0/32"
+                        },
+                        "displayName": "Avinash Kamble",
+                        "active": true,
+                        "timeZone": "Asia/Calcutta",
+                        "accountType": "atlassian"
+                    },
+                    "body": {
+                        "type": "doc",
+                        "version": 1,
+                        "content": [
+                            {
+                                "type": "paragraph",
+                                "content": [
+                                    {
+                                        "type": "text",
+                                        "text": "This is a second new comment added via the REST API using ADF."
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "updateAuthor": {
+                        "self": "https://avinashkamble-team.atlassian.net/rest/api/3/user?accountId=70121%3A850d20b8-98ea-4471-9ae9-a709f5fbe6bd",
+                        "accountId": "70121:850d20b8-98ea-4471-9ae9-a709f5fbe6bd",
+                        "emailAddress": "pkavinas@gmail.com",
+                        "avatarUrls": {
+                            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:850d20b8-98ea-4471-9ae9-a709f5fbe6bd/e55bac44-d994-4b5f-b398-aabe08fea6c0/48",
+                            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:850d20b8-98ea-4471-9ae9-a709f5fbe6bd/e55bac44-d994-4b5f-b398-aabe08fea6c0/24",
+                            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:850d20b8-98ea-4471-9ae9-a709f5fbe6bd/e55bac44-d994-4b5f-b398-aabe08fea6c0/16",
+                            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:850d20b8-98ea-4471-9ae9-a709f5fbe6bd/e55bac44-d994-4b5f-b398-aabe08fea6c0/32"
+                        },
+                        "displayName": "Avinash Kamble",
+                        "active": true,
+                        "timeZone": "Asia/Calcutta",
+                        "accountType": "atlassian"
+                    },
+                    "created": "2025-04-28T19:34:36.495+0530",
+                    "updated": "2025-04-28T19:34:36.495+0530",
+                    "jsdPublic": true
+                }
+            ],
+            "self": "https://avinashkamble-team.atlassian.net/rest/api/3/issue/10004/comment",
+            "maxResults": 3,
+            "total": 3,
+            "startAt": 0
+        },
+        "worklog": {
+            "startAt": 0,
+            "maxResults": 20,
+            "total": 0,
+            "worklogs": [
+                
+            ]
+        }
+    }
+}
