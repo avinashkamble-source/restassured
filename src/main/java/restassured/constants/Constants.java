@@ -1,7 +1,15 @@
 package restassured.constants;
 
-public interface BodyConstants {
+public interface Constants {
 
+	String base_uri = "https://avinashkamble-team.atlassian.net";
+	String get_issue_path = "rest/api/3/issue/{issue}";
+	String create_issue_path ="/rest/api/3/issue";
+	String get_events = "rest/api/3/events";
+	String update_issue = "rest/api/{num}/issue/{issueid}";
+	String delete_issue = "rest/api/{num}/issue/{issueid}";
+	
+	Integer id = 10004;
 	String updateissuebody ="{\r\n"
 			+ "    \"update\": {\r\n"
 			+ "        \"comment\": [\r\n"
@@ -28,5 +36,4 @@ public interface BodyConstants {
 			+ "    }\r\n"
 			+ "}";
 	
-	String key ="Basic cGthdmluYXNAZ21haWwuY29tOkFUQVRUM3hGZkdGMGo4WEhJeTY2QW8tbjVOV3lJc05qakRRTHVsVnJmblpZSUEyMTdOR3pwVkotSnpEWWVHRGFQckFDNHJnUV8tbGhGTUZKYmhueWc5M1o5RVFkUm5EUDNUOFBkU0w4WTRLV1I3bnU1NzV1OWQtQS1idFIzVlZGbTk5UjRSY3J0NUhMV3BnRnZkZE1BVC1FUUhjdnNaa1V6Z0FkTEtsZzZWbUluZk1zZTVPdFAxST0zRjJCNjk4Ng==";
 }

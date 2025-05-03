@@ -8,6 +8,7 @@ C:\Users\Asus\eclipse-workspace\restassured\src\main\java\restassured\request\cr
 C:\Users\Asus\eclipse-workspace\restassured\src\main\java\restassured\request\createissue\pojos\IssueType.java
 C:\Users\Asus\eclipse-workspace\restassured\src\main\java\restassured\request\createissue\pojos\Project.java
 C:\Users\Asus\eclipse-workspace\restassured\src\main\java\restassured\request\specbuilders\Requestspec.java
+C:\Users\Asus\eclipse-workspace\restassured\src\main\java\restassured\request\specbuilders\Responsespec.java
 C:\Users\Asus\eclipse-workspace\restassured\src\main\java\restassured\response\createissue\pojos\CreateIssueResponse.java
 C:\Users\Asus\eclipse-workspace\restassured\src\main\java\restassured\response\event\pojos\Event.java
 C:\Users\Asus\eclipse-workspace\restassured\src\main\java\restassured\response\event\pojos\EventPojo.java

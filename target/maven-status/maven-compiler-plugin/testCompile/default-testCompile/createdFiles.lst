@@ -1,1 +1,2 @@
+restassured\jira\tests\BaseTest.class
 restassured\jira\tests\GetIssueTests.class

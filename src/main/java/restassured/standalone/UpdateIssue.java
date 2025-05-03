@@ -2,7 +2,8 @@ package restassured.standalone;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
-import restassured.constants.BodyConstants;
+import restassured.constants.AuthConstants;
+import restassured.constants.Constants;
 
 import static io.restassured.RestAssured.*;
 
@@ -13,9 +14,9 @@ public class UpdateIssue {
 
 		RestAssured.baseURI="https://avinashkamble-team.atlassian.net";
 		Response rs = given().log().all()
-				.headers("Content-Type","application/json","Authorization",BodyConstants.key)
+				.headers("Content-Type","application/json","Authorization",AuthConstants.key)
 				.pathParams("num","3", "issueid", "RA-1")
-				.body(BodyConstants.updateissuebody)
+				.body(Constants.updateissuebody)
 				.when().put("rest/api/{num}/issue/{issueid}");
 		
 		rs.getBody().asString();

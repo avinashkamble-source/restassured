@@ -6,7 +6,7 @@ import java.io.File;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
-import restassured.constants.BodyConstants;
+import restassured.constants.AuthConstants;
 
 public class AddAttachments {
 
@@ -16,7 +16,7 @@ public class AddAttachments {
 
 		File f = new File("C:\\Users\\Asus\\eclipse-workspace\\cucumberframework\\src\\main\\resources\\2.png");
 		Response response = given().log().all().headers("X-Atlassian-Token", "no-check", "Authorization",
-				BodyConstants.key)
+				AuthConstants.key)
 				.pathParams("number", "3", "issue-id", "RA-2").multiPart("file", f).when()
 				.post("/rest/api/{number}/issue/{issue-id}/attachments");
 
