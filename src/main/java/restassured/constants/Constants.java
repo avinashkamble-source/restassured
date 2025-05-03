@@ -2,6 +2,7 @@ package restassured.constants;
 
 public interface Constants {
 
+	// Base URI for the API
 	String base_uri = "https://avinashkamble-team.atlassian.net";
 	String get_issue_path = "rest/api/3/issue/{issue}";
 	String create_issue_path ="/rest/api/3/issue";
