@@ -1,2 +1,8 @@
-restassured\jira\tests\BaseTest.class
+restassured\jira\tests\AddAttachmentsTests.class
+restassured\jira\tests\UpdateIssueTests.class
 restassured\jira\tests\GetIssueTests.class
+restassured\jira\tests\BaseTest.class
+restassured\jira\tests\DeleteIssueTests.class
+restassured\jira\tests\JiraEventsTests$1.class
+restassured\jira\tests\CreateIssueTests.class
+restassured\jira\tests\JiraEventsTests.class

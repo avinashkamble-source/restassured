@@ -12,3 +12,32 @@ Headers:		Accept=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
+HTTP/1.1 400 Bad Request
+Content-Type: application/json;charset=UTF-8
+Content-Length: 69
+Connection: keep-alive
+Date: Sat, 03 May 2025 16:46:22 GMT
+Server: AtlassianEdge
+Timing-Allow-Origin: *
+X-Arequestid: 387c36669413e152ac5d753fe3de5713
+Set-Cookie: atlassian.xsrf.token=434a3a550868264a7d93c73894aad0e93f9bd79e_lin; Path=/; SameSite=None; Secure
+X-Aaccountid: 70121%3A850d20b8-98ea-4471-9ae9-a709f5fbe6bd
+Cache-Control: no-store, no-cache
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Atl-Traceid: 7c290bf456c8473a8016147a95d80959
+Atl-Request-Id: 7c290bf4-56c8-473a-8016-147a95d80959
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Server-Timing: atl-edge;dur=217,atl-edge-internal;dur=14,atl-edge-upstream;dur=204,atl-edge-pop;desc="aws-ap-south-1"
+X-Cache: Error from cloudfront
+Via: 1.1 a1de486c2b904ef4aae83143124a7c16.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BLR50-P1
+X-Amz-Cf-Id: wqRlVkzHMd54TZPHr1ntwUphDo-tY2O-yMde6yBCv3KbIjMfR8WXrw==
+
+{
+    "errorMessages": [
+        "No content to map to Object due to end of input"
+    ]
+}
